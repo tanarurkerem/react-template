@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import { Outlet } from 'react-router-dom';
+import { Outlet, Link } from 'react-router-dom';
 
 function App() {
   return (
     <>
     <nav>
     <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about">About</a></li>
+    <li><Link to="/">Home</Link></li>
+    <li><Link to="/about">About</Link></li>
     </ul>
     </nav>
     <div id="detail">
